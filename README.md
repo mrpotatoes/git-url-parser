@@ -40,3 +40,8 @@ Providers
 * Gitlab & Snippets
 
 # Writing a plugin
+
+# TODOs
+-[ ] Add testing
+-[ ] Add linting
+-[ ] Push to NPM as a valid module.

@@ -1,13 +1,37 @@
 {
-  "name": "git-url-parser",
+  "name": "@mrpotatoes/git-url-parser",
   "version": "1.0.0",
   "description": "",
   "main": "dist/git-url-parser.js",
   "scripts": {
+    "start": "nodemon ./lib/index.js",
     "dev": "nodemon ./lib/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require @babel/register --recursive ./tests --reporter mocha-clearscreen-reporter --watch"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/register": "^7.7.7",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.9",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^6.2.2",
+    "mocha-clearscreen-reporter": "^1.0.1",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.0"
+  }
 }
