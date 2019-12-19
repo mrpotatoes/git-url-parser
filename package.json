@@ -1,8 +1,8 @@
 {
-  "name": "urls",
+  "name": "git-url-parser",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/git-url-parser.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
