@@ -5,9 +5,5 @@ import parser from '../lib/providers'
 chai.should()
 
 describe('../lib/providers', () => {
-  describe('', () => {
-    it('', (done) => {
-      done()
-    })
-  })
+  
 })

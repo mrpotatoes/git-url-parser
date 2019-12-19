@@ -42,6 +42,7 @@ Providers
 # Writing a plugin
 
 # TODOs
--[ ] Add testing
--[ ] Add linting
--[ ] Push to NPM as a valid module.
+- [x] Add test tooling
+- [ ] Add testing
+- [ ] Add linting
+- [ ] Push to NPM as a valid module.
